@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    
+}
+
+/*PARA MUDAR A COR DOS ICONES(TIRAR O AZULADO/ROXO)*/
+span{
+    color: rgb(20, 20, 20);
+  
+  }
+
+  a{
+    color: transparent;
+}
+
+  /*BUTTONS*/
+
+.all-buttons{
+    position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      
+  }
+  
+  .github{
+    margin: 90px 0px;
+  }
+  
+  .all-buttons .icon{
+    
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position: relative;
+    z-index:2;
+  }
+  
+  .all-buttons .icon span{
+    position:relative;
+    z-index:2;
+    height: 8vw;
+    width: 8vw;
+    display:block;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius:50%;
+    text-align:center;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .all-buttons .icon span i{
+    font-size:   8vh;
+    line-height: 8vw;
+  }
+  
+  .all-buttons .icon .tooltip{
+    position:absolute;
+    top:0px;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 25px;
+    color:white;
+    opacity:0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .all-buttons .icon:hover .tooltip{
+    opacity:1;
+    pointer-events: auto;
+    top:-70px;
+  }
+  
+  .all-buttons .icon .tooltip:before{
+    position:absolute;
+    content:"";
+    height:15px;
+    width:15px;
+    bottom:-8px;
+    left:50%;
+    transform: translateX(-50%) rotate(45deg);
+  }
+  
+  .all-buttons .icon:hover span,
+  .wrapp .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  }
+  .all-buttons .icon:hover span{
+    color: #fff;
+  }
+  
+  .all-buttons .home:hover span,
+  .all-buttons .home:hover .tooltip,
+  .all-buttons .home:hover .tooltip:before{
+    background:#8bc6ec;
+  }
+  .all-buttons .github:hover span,
+  .all-buttons .github:hover .tooltip,
+  .all-buttons .github:hover .tooltip:before{
+    background:#333;
+  }
+  .all-buttons .youtube:hover span,
+  .all-buttons .youtube:hover .tooltip,
+  .all-buttons .youtube:hover .tooltip:before{
+    background:#de463b;
+  
+  }
+
+ 
+
+  @media(max-height: 783px){
+    .all-buttons .icon span{
+        position:relative;
+        z-index:2;
+        height: 7vw;
+        width: 7vw;
+        display:block;
+        background: #fff;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        border-radius:50%;
+        text-align:center;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+  }
+
+  @media(max-height: 783px){
+    .all-buttons .icon span i{
+        font-size:   5vh;
+        line-height: 7vw;
+    }
+  }
+
+  @media(max-height: 682px){
+    .all-buttons .icon span{
+        position:relative;
+        z-index:2;
+        height: 10vw;
+        width: 10vw;
+        display:block;
+        background: #fff;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        border-radius:50%;
+        text-align:center;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+  }
+
+  @media(max-height: 682px){
+    .all-buttons .icon span i{
+        font-size:   4vh;
+        line-height: 10vw;
+    }
+  }
+
+  /*ALINHAR NO CENTRO/BAIXO*/
+  @media(max-height: 682px){
+    .all-buttons{
+     position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  /*inline-flex side by side*/
+  @media(max-height: 682px){
+    .all-buttons .icon{
+        cursor:pointer;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        position: relative;
+        z-index:2;
+    }
+  }
+
+  /* only margin adj*/
+  @media(max-height: 682px){
+    .github{
+        margin: 0px 15px;
+    }
+  }
+ 
+
+  @media(max-height: 583px){
+    .all-buttons .icon span{
+        position:relative;
+        z-index:2;
+        height: 10vw;
+        width: 10vw;
+        display:block;
+        background: #fff;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        border-radius:50%;
+        text-align:center;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+  }
+
+  @media(max-height: 583px){
+    .all-buttons .icon span i{
+        font-size:   4vh;
+        line-height: 10vw;
+    }
+  }
+
+  @media(max-height: 682px){
+    .all-buttons{
+     position: absolute;
+      top: 87%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
