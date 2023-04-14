@@ -13,8 +13,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #8bc6ec;
-  background-image: linear-gradient(150deg, #5a9dca 0%, #7074bb 100%) ;
-  /* background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(41,8,70,0.9878326330532213) 100%); */
+  background: linear-gradient(149deg, rgba(255,104,166,1) 6%, rgba(255,224,186,1) 79%);
   background-repeat: no-repeat;
   background-size: cover;
   }

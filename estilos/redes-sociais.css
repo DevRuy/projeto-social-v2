@@ -20,6 +20,8 @@ span{
     color: transparent;
 }
 
+
+
   /*BUTTONS*/
 
 .all-buttons{
@@ -43,6 +45,7 @@ span{
     flex-direction:column;
     position: relative;
     z-index:2;
+    
   }
   
   .all-buttons .icon span{
@@ -56,6 +59,8 @@ span{
     border-radius:50%;
     text-align:center;
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
   }
   
   .all-buttons .icon span i{
@@ -132,6 +137,7 @@ span{
         border-radius:50%;
         text-align:center;
         transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
     }
   }
 
@@ -154,12 +160,13 @@ span{
         border-radius:50%;
         text-align:center;
         transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
     }
   }
 
   @media(max-height: 682px){
     .all-buttons .icon span i{
-        font-size:   4vh;
+        font-size:   3vh;
         line-height: 10vw;
     }
   }
@@ -207,12 +214,13 @@ span{
         border-radius:50%;
         text-align:center;
         transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
     }
   }
 
   @media(max-height: 583px){
     .all-buttons .icon span i{
-        font-size:   4vh;
+        font-size:   3vh;
         line-height: 10vw;
     }
   }
