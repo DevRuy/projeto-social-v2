@@ -129,12 +129,12 @@ body{
 
   /*CELULARES*/
 
-  @media (min-width:320px) and (max-width:500px){
+  @media (min-width:366px) and (max-width:400px){
     .all-buttons .icon span{
       position:relative;
       z-index:2;
-      height: 10vw;
-      width: 10vw;
+      height: 12vw;
+      width: 12vw;
       display:block;
       background: #fff;
       box-shadow: 0 10px 10px rgba(0,0,0,0.1);
@@ -144,12 +144,12 @@ body{
       box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
   }
     .all-buttons .icon span i{
-      font-size:   4vh;
-      line-height: 10vw;
+      font-size:   3vh;
+      line-height: 12vw;
   }
   .all-buttons{
     position: absolute;
-    top: 95%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, -50%);   
   }
@@ -166,12 +166,95 @@ body{
   }
 
   .github{
-    margin: 0px /*15px*/;
+    margin: 0px 20px;
   }
  
   }
 
+  @media (min-width:320px) and (max-width:365px){
+    .all-buttons .icon span{
+      position:relative;
+      z-index:2;
+      height: 12vw;
+      width: 12vw;
+      display:block;
+      background: #fff;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+      border-radius:50%;
+      text-align:center;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+  }
+    .all-buttons .icon span i{
+      font-size:   3vh;
+      line-height: 12vw;
+  }
+  .all-buttons{
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+  }
+
+  .all-buttons .icon{
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position: relative;
+    z-index:2;
+    
+  }
+
+  .github{
+    margin: 0px 20px;
+  }
+ 
+  }
+
+  @media (min-width:401px) and (max-width:600px){
+    .all-buttons .icon span{
+      position:relative;
+      z-index:2;
+      height: 13vw;
+      width: 13vw;
+      display:block;
+      background: #fff;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+      border-radius:50%;
+      text-align:center;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+  }
+    .all-buttons .icon span i{
+      font-size: 4vh;
+      line-height: 13vw;
+  }
+  .all-buttons{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+  }
+
+  .all-buttons .icon{
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position: relative;
+    z-index:2;
+    
+  }
+
+  .github{
+    margin: 0px 10px;
+  }
+}
   /*TABLET*/
+
   @media (min-width:768px) and (max-width:1024px){
     .all-buttons .icon span{
       position:relative;
@@ -197,5 +280,3 @@ body{
       transform: translate(-50%, -50%);    
   }
   }
-
-  
