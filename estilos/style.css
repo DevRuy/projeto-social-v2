@@ -44,7 +44,7 @@ iframe#tela{
       border-radius:39px;
 }
 
-    @media (min-width:501px) and (max-width:900px){
+    @media (min-width:401px) and (max-width:900px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -64,7 +64,7 @@ iframe#tela{
       }
     }
 
-    @media(min-width:396px) and (max-width:500px){
+    @media(min-width:396px) and (max-width:400px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -84,7 +84,7 @@ iframe#tela{
       }
     }
 
-    @media(min-width:100px) and (max-width:395px){
+    @media(min-width:100px) and (max-width:345px){
       section#telefone{
         position: absolute;
         top: 50%;
