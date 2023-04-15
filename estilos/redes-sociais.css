@@ -53,8 +53,8 @@ body{
   .all-buttons .icon span{
     position:relative;
     z-index:2;
-    height: 8vw;
-    width: 8vw;
+    height: 9vw;
+    width: 9vw;
     display:block;
     background: #fff;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
@@ -64,10 +64,12 @@ body{
 
     box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
   }
+
+  
   
   .all-buttons .icon span i{
-    font-size:   8vh;
-    line-height: 8vw;
+    font-size:   8.5vh;
+    line-height: 9vw;
   }
   
   .all-buttons .icon .tooltip{
@@ -129,48 +131,6 @@ body{
 
   /*CELULARES*/
 
-  @media (min-width:366px) and (max-width:400px){
-    .all-buttons .icon span{
-      position:relative;
-      z-index:2;
-      height: 12vw;
-      width: 12vw;
-      display:block;
-      background: #fff;
-      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-      border-radius:50%;
-      text-align:center;
-      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
-  }
-    .all-buttons .icon span i{
-      font-size:   3vh;
-      line-height: 12vw;
-  }
-  .all-buttons{
-    position: absolute;
-    top: 94%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-  }
-
-  .all-buttons .icon{
-    cursor:pointer;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    position: relative;
-    z-index:2;
-    
-  }
-
-  .github{
-    margin: 0px 20px;
-  }
- 
-  }
-
   @media (min-width:320px) and (max-width:365px){
     .all-buttons .icon span{
       position:relative;
@@ -213,7 +173,49 @@ body{
  
   }
 
-  @media (min-width:401px) and (max-width:600px){
+  @media (min-width:366px) and (max-width:400px){
+    .all-buttons .icon span{
+      position:relative;
+      z-index:2;
+      height: 12vw;
+      width: 12vw;
+      display:block;
+      background: #fff;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+      border-radius:50%;
+      text-align:center;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+  }
+    .all-buttons .icon span i{
+      font-size:   3vh;
+      line-height: 12vw;
+  }
+  .all-buttons{
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+  }
+
+  .all-buttons .icon{
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position: relative;
+    z-index:2;
+    
+  }
+
+  .github{
+    margin: 0px 20px;
+  }
+ 
+  }
+
+  @media (min-width:401px) and (max-width:480px){
     .all-buttons .icon span{
       position:relative;
       z-index:2;
@@ -253,14 +255,99 @@ body{
     margin: 0px 10px;
   }
 }
-  /*TABLET*/
 
-  @media (min-width:768px) and (max-width:1024px){
+@media (min-width:481px) and (max-width:600px){
+  .all-buttons .icon span{
+    position:relative;
+    z-index:2;
+    height: 9vw;
+    width: 9vw;
+    display:block;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius:50%;
+    text-align:center;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+}
+  .all-buttons .icon span i{
+    font-size: 4vh;
+    line-height: 9vw;
+}
+.all-buttons{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
+}
+
+.all-buttons .icon{
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  position: relative;
+  z-index:2;
+  
+}
+
+.github{
+  margin: 0px 10px;
+}
+}
+
+@media (min-width:601px) and (max-width:800px){
+  .all-buttons .icon span{
+    position:relative;
+    z-index:2;
+    height: 13vw;
+    width: 13vw;
+    display:block;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius:50%;
+    text-align:center;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+}
+  .all-buttons .icon span i{
+    font-size: 6vh;
+    line-height: 13vw;
+}
+.all-buttons{
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);   
+}
+
+.all-buttons .icon{
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  position: relative;
+  z-index:2;
+  
+}
+
+.github{
+  margin: 90px 0px;
+}
+}
+
+
+
+  /*TABLET/PC*/
+
+  @media (min-width:801px) and (max-width:1024px){
     .all-buttons .icon span{
       position:relative;
       z-index:2;
-      height: 10vw;
-      width: 10vw;
+      height: 12vw;
+      width: 12vw;
       display:block;
       background: #fff;
       box-shadow: 0 10px 10px rgba(0,0,0,0.1);
@@ -270,8 +357,8 @@ body{
       box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
   }
     .all-buttons .icon span i{
-      font-size:   4vh;
-      line-height: 10vw;
+      font-size:   6vw;
+      line-height: 12vw;
   }
   .all-buttons{
       position: absolute;
@@ -280,3 +367,30 @@ body{
       transform: translate(-50%, -50%);    
   }
   }
+
+  @media (min-width:1025px) and (max-width:1080px){
+    .all-buttons .icon span{
+      position:relative;
+      z-index:2;
+      height: 12vw;
+      width: 12vw;
+      display:block;
+      background: #fff;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+      border-radius:50%;
+      text-align:center;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+  }
+    .all-buttons .icon span i{
+      font-size:   6vw;
+      line-height: 12vw;
+  }
+  .all-buttons{
+      position: absolute;
+      top: 50%;
+      left: 85%;
+      transform: translate(-50%, -50%);    
+  }
+  }
+  
