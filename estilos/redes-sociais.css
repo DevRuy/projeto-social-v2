@@ -272,7 +272,7 @@ body{
       box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
   }
     .all-buttons .icon span i{
-      font-size: 4vh;
+      font-size: 3.5vh;
       line-height: 13vw;
   }
   .all-buttons{
@@ -313,7 +313,7 @@ body{
     box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
 }
   .all-buttons .icon span i{
-    font-size: 4vh;
+    font-size: 3vh;
     line-height: 9vw;
 }
 .all-buttons{
@@ -339,7 +339,48 @@ body{
 }
 }
 
-@media (min-width:601px) and (max-width:800px){
+@media (min-width:601px) and (max-width:660px){
+  .all-buttons .icon span{
+    position:relative;
+    z-index:2;
+    height: 11vw;
+    width: 11vw;
+    display:block;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius:50%;
+    text-align:center;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+}
+  .all-buttons .icon span i{
+    font-size: 4vh;
+    line-height: 11vw;
+}
+.all-buttons{
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);   
+}
+
+.all-buttons .icon{
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  position: relative;
+  z-index:2;
+  
+}
+
+.github{
+  margin: 90px 0px;
+}
+}
+
+@media (min-width:661px) and (max-width:730px){
   .all-buttons .icon span{
     position:relative;
     z-index:2;
@@ -381,10 +422,9 @@ body{
 }
 
 
-
   /*TABLET/PC*/
 
-  @media (min-width:801px) and (max-width:1024px){
+  @media (min-width:731px) and (max-width:1024px){
     .all-buttons .icon span{
       position:relative;
       z-index:2;

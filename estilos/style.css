@@ -18,12 +18,12 @@ body {
   background-size: cover;
   }
 
-  main{
+main{
     position: relative;
     height: 100vh;
-  }
+}
 
-  section#telefone{
+section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,18 +33,18 @@ body {
     width: 416px;
     background:url('../imagens/frame-iphone-principal.png') no-repeat;
   
-    }
+}
 
-    iframe#tela{
+iframe#tela{
       position: relative;
       top: 20px;
       left: 23px;
       height: 800px;
       width: 369px; 
       border-radius:39px;
-    }
+}
 
-    @media (max-height: 915px){
+    @media (min-width:501px) and (max-width:900px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -64,9 +64,7 @@ body {
       }
     }
 
-   
-
-    @media(max-height: 783px){
+    @media(min-width:396px) and (max-width:500px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -86,9 +84,7 @@ body {
       }
     }
 
-    
-
-    @media(max-height: 682px){
+    @media(min-width:100px) and (max-width:395px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -107,11 +103,8 @@ body {
           border-radius: 25px;
       }
     }
-    
 
-    
-
-    @media(max-height: 583px){
+    /* @media(min-width:100px) and (max-width:355px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -129,6 +122,6 @@ body {
           width: 138px;
           border-radius: 20px;
       }
-    }
+    } */
 
     
