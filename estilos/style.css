@@ -44,7 +44,7 @@ body {
       border-radius:39px;
     }
 
-    @media (max-height: 915px) and {
+    @media (max-height: 915px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -54,9 +54,6 @@ body {
         width: 317px;
         background: url('../imagens/frame-iphone-900px.png');
       }
-    }
-
-    @media(max-height: 915px){
       iframe#tela{
         position: relative;
         top: 14px;
@@ -66,6 +63,8 @@ body {
         border-radius: 39px;
       }
     }
+
+   
 
     @media(max-height: 783px){
       section#telefone{
@@ -77,9 +76,6 @@ body {
         width: 252px;
         background: url('../imagens/frame-iphone-783px.png');
       }
-    }
-
-    @media(max-height: 783px){
       iframe#tela{
         position: relative;
     top: 10px;
@@ -89,6 +85,8 @@ body {
     border-radius: 32px;
       }
     }
+
+    
 
     @media(max-height: 682px){
       section#telefone{
@@ -100,9 +98,6 @@ body {
         width: 201px;
         background: url('../imagens/frame-iphone-682px.png');
       }
-    }
-
-    @media(max-height: 682px){
       iframe#tela{
         position: relative;
           top: 8px;
@@ -112,6 +107,9 @@ body {
           border-radius: 25px;
       }
     }
+    
+
+    
 
     @media(max-height: 583px){
       section#telefone{
@@ -123,9 +121,6 @@ body {
         width: 151px;
         background: url('../imagens/frame-iphone-583px.png');
       }
-    }
-
-    @media(max-height: 583px){
       iframe#tela{
         position: relative;
           top: 5px;
@@ -136,3 +131,4 @@ body {
       }
     }
 
+    

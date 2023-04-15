@@ -125,7 +125,7 @@ span{
 
  
 
-  @media(max-height: 783px){
+  @media(max-height: 783px) or (max-width: 1220px){
     .all-buttons .icon span{
         position:relative;
         z-index:2;
@@ -139,14 +139,13 @@ span{
         transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
     }
+    .all-buttons .icon span i{
+      font-size:   5vh;
+      line-height: 7vw;
+  }
   }
 
-  @media(max-height: 783px){
-    .all-buttons .icon span i{
-        font-size:   5vh;
-        line-height: 7vw;
-    }
-  }
+  
 
   @media(max-height: 682px){
     .all-buttons .icon span{
@@ -162,17 +161,78 @@ span{
         transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
     }
+    .all-buttons .icon span i{
+      font-size:   3vh;
+      line-height: 10vw;
+    }
+    .all-buttons{
+      position: absolute;
+      top: 93%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    /*inline-flex side by side*/
+    .all-buttons .icon{
+      cursor:pointer;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      position: relative;
+      z-index:2;
+    /* only margin adj*/
+      }
+    .github{
+    margin: 0px 15px;
+  }
+ 
+}
+  @media(max-height: 583px){
+    .all-buttons .icon span{
+        position:relative;
+        z-index:2;
+        height: 10vw;
+        width: 10vw;
+        display:block;
+        background: #fff;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        border-radius:50%;
+        text-align:center;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+    }
+    .all-buttons .icon span i{
+      font-size:   3vh;
+      line-height: 10vw;
+  }
   }
 
-  @media(max-height: 682px){
+  /*SAMSUNG GALAXY A51/71*/
+
+  @media(max-height: 930px) and (width:430px){
+    .all-buttons .icon span{
+        position:relative;
+        z-index:2;
+        height: 10vw;
+        width: 10vw;
+        display:block;
+        background: #fff;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        border-radius:50%;
+        text-align:center;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
+    }
+  }
+
+  @media(max-height: 930px) and (width:430px){
     .all-buttons .icon span i{
         font-size:   3vh;
         line-height: 10vw;
     }
   }
-
   /*ALINHAR NO CENTRO/BAIXO*/
-  @media(max-height: 682px){
+  @media(max-height: 930px) and (width:430px){
     .all-buttons{
      position: absolute;
       top: 93%;
@@ -182,7 +242,7 @@ span{
   }
   
   /*inline-flex side by side*/
-  @media(max-height: 682px){
+  @media(max-height: 930px)  and (width:430px){
     .all-buttons .icon{
         cursor:pointer;
         display:inline-flex;
@@ -195,42 +255,11 @@ span{
   }
 
   /* only margin adj*/
-  @media(max-height: 682px){
+  @media(max-height: 930px) and (width:430px){
     .github{
         margin: 0px 15px;
     }
   }
  
-
-  @media(max-height: 583px){
-    .all-buttons .icon span{
-        position:relative;
-        z-index:2;
-        height: 10vw;
-        width: 10vw;
-        display:block;
-        background: #fff;
-        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-        border-radius:50%;
-        text-align:center;
-        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.397);
-    }
-  }
-
-  @media(max-height: 583px){
-    .all-buttons .icon span i{
-        font-size:   3vh;
-        line-height: 10vw;
-    }
-  }
-
-  @media(max-height: 682px){
-    .all-buttons{
-     position: absolute;
-      top: 87%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
+  
   
