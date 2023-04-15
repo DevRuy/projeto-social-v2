@@ -13,7 +13,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #8bc6ec;
-  background: linear-gradient(149deg, rgba(255,104,166,1) 6%, rgba(255,224,186,1) 79%);
+  background: linear-gradient(149deg, #ff68a6 6%, #ffe0ba 79%);
   background-repeat: no-repeat;
   background-size: cover;
   }
@@ -44,7 +44,7 @@ body {
       border-radius:39px;
     }
 
-    @media(max-height: 915px){
+    @media (max-height: 915px) and {
       section#telefone{
         position: absolute;
         top: 50%;
