@@ -64,7 +64,7 @@ iframe#tela{
       }
     }
 
-    @media(min-width:390px) and (max-width:420px){
+    @media(min-width:401px) and (max-width:420px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -84,7 +84,7 @@ iframe#tela{
       }
     }
 
-    @media(min-width:100px) and (max-width:389px){
+    /* @media(min-width:100px) and (max-width:389px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -102,9 +102,9 @@ iframe#tela{
           width: 181px;
           border-radius: 25px;
       }
-    }
+    } */
 
-    /* @media(min-width:100px) and (max-width:355px){
+    @media(min-width:100px) and (max-width:400px){
       section#telefone{
         position: absolute;
         top: 50%;
@@ -122,6 +122,6 @@ iframe#tela{
           width: 138px;
           border-radius: 20px;
       }
-    } */
+    }
 
     
